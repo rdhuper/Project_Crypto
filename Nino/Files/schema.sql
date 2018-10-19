@@ -7,11 +7,11 @@ USE crypto_db;
 CREATE TABLE bitcoin (
   id INT PRIMARY KEY,
   date VARCHAR(14),
-  close DECIMAL(12, 2)
+  btc_close DECIMAL(12, 2)
 );
 
 CREATE TABLE ethereum (
   id INT PRIMARY KEY,
   date VARCHAR(14),
-  close DECIMAL(12, 2)
+  eth_close DECIMAL(12, 2)
 );
