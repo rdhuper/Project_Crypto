@@ -1,1 +1,2 @@
-sqlpw = "pb9999pb"
+# Enter your password for SQL
+sqlpw = "password"
