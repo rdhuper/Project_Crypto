@@ -17,9 +17,9 @@ When examining our DataFrame and going through the columns, we came to the concl
  
 Moreover, since Bitcoin had been around longer, there were more rows of data available. Therefore, we performed an .LOC to reduce the Bitcoin dataset to the same date range as Ethereum's dataset. Thus, both Bitcoin and Ethereum had the same number of rows of data.
 
-![Overall graph](Final Folder/Images/Overall.png)
-![Graph of February 2018 close prices](Final Folder/Images/Feb2018.png)
-![Graph of 2015-2018 first of month close prices](Final Folder/Images/FOM.png)
+![Overall graph](Final+Folder/Images/Overall.png)
+![Graph of February 2018 close prices](Final+Folder/Images/Feb2018.png)
+![Graph of 2015-2018 first of month close prices](Final+Folder/Images/FOM.png)
 
 Lastly, to spice things up, we recalled Bitcoin and Ethereum had ticker abbreviations, so we modified a class example (Doctor Decoder) to scrape the Bitcoin and Ethereum abbreviations from the Wikipedia page for cryptocurrencies.
  
