@@ -15,8 +15,20 @@ We were able to successfully download both CSV files, save them to our Resources
 Part 3: Transforming the Data:
 When examining our DataFrame and going through the columns, we came to the conclusion that all we needed for Bitcoin and Ethereum historical pricing were the “Close” prices, where the coin would close at the end of the day, as well as the corresponding date.
  
-Moreover, since Bitcoin had been around longer, there were more rows of data available. Therefore, we performed an .LOC to reduce the  Bitcoin dataset to the same date range as Ethereum's dataset. Thus, both Bitcoin and Ethereum had the same number of rows of data.
- 
+Moreover, since Bitcoin had been around longer, there were more rows of data available. Therefore, we performed an .LOC to reduce the Bitcoin dataset to the same date range as Ethereum's dataset. Thus, both Bitcoin and Ethereum had the same number of rows of data.
+
+This graph displays the overall dataset:
+
+![Overall graph](Images/Overall.png)
+
+This graph displays the dataset spanning February 2018:
+
+![Graph of February 2018 close prices](Images/Feb2018.png)
+
+This graph displays the dataset consisting of the first of each month in the dataset:
+
+![Graph of 2015-2018 first of month close prices](Images/FOM.png)
+
 Lastly, to spice things up, we recalled Bitcoin and Ethereum had ticker abbreviations, so we modified a class example (Doctor Decoder) to scrape the Bitcoin and Ethereum abbreviations from the Wikipedia page for cryptocurrencies.
  
 Part 4: Loading the Data:
